@@ -1,0 +1,394 @@
+[2018-03-08 11:22:17,687] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-03-08 11:22:17,690] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-03-08 11:22:17,690] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-03-08 11:22:17,690] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-03-08 11:22:17,690] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2018-03-08 11:22:17,706] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-03-08 11:22:17,706] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2018-03-08 11:22:17,714] INFO Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,714] INFO Server environment:host.name=isura-HP-ENVY-15-Notebook-PC (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,714] INFO Server environment:java.version=1.8.0_161 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:java.class.path=:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/argparse4j-0.7.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/commons-lang3-3.5.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-api-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-file-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-json-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-runtime-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-transforms-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/guava-20.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-annotations-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-core-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-databind-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-base-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-json-provider-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-module-jaxb-annotations-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javassist-3.20.0-GA.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javassist-3.21.0-GA.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.annotation-api-1.2.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.inject-1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-client-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-common-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-guava-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-server-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-continuation-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-http-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-io-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-security-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-server-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-servlet-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-servlets-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-util-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jopt-simple-5.0.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-sources.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-test-sources.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-clients-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-log4j-appender-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-streams-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-streams-examples-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-tools-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/log4j-1.2.17.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/lz4-java-1.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/maven-artifact-3.5.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/metrics-core-2.2.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/plexus-utils-3.0.24.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/reflections-0.9.11.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/scala-library-2.11.11.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/slf4j-api-1.7.25.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/snappy-java-1.1.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/zkclient-0.10.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:os.version=4.13.0-36-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,715] INFO Server environment:user.name=isura (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,716] INFO Server environment:user.home=/home/isura (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,716] INFO Server environment:user.dir=/home/isura/env/kafka_2.11-1.0.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,722] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,722] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,722] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:22:17,736] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-03-08 11:23:35,813] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-03-08 11:23:35,815] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-03-08 11:23:35,815] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-03-08 11:23:35,815] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-03-08 11:23:35,815] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2018-03-08 11:23:35,827] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-03-08 11:23:35,828] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2018-03-08 11:23:35,833] INFO Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,833] INFO Server environment:host.name=isura-HP-ENVY-15-Notebook-PC (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:java.version=1.8.0_161 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:java.class.path=:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/argparse4j-0.7.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/commons-lang3-3.5.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-api-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-file-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-json-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-runtime-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-transforms-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/guava-20.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-annotations-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-core-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-databind-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-base-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-json-provider-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-module-jaxb-annotations-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javassist-3.20.0-GA.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javassist-3.21.0-GA.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.annotation-api-1.2.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.inject-1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-client-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-common-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-guava-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-server-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-continuation-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-http-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-io-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-security-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-server-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-servlet-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-servlets-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-util-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jopt-simple-5.0.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-sources.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-test-sources.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-clients-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-log4j-appender-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-streams-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-streams-examples-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-tools-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/log4j-1.2.17.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/lz4-java-1.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/maven-artifact-3.5.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/metrics-core-2.2.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/plexus-utils-3.0.24.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/reflections-0.9.11.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/scala-library-2.11.11.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/slf4j-api-1.7.25.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/snappy-java-1.1.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/zkclient-0.10.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:os.version=4.13.0-36-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:user.name=isura (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:user.home=/home/isura (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,834] INFO Server environment:user.dir=/home/isura/env/kafka_2.11-1.0.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,839] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,839] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,839] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:35,846] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-03-08 11:23:35,847] ERROR Unexpected exception, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.configure(NIOServerCnxnFactory.java:90)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:117)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:87)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:53)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:116)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:78)
+[2018-03-08 11:23:54,077] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-03-08 11:23:54,079] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-03-08 11:23:54,079] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-03-08 11:23:54,079] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2018-03-08 11:23:54,079] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2018-03-08 11:23:54,092] INFO Reading configuration from: config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2018-03-08 11:23:54,092] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2018-03-08 11:23:54,098] INFO Server environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,098] INFO Server environment:host.name=isura-HP-ENVY-15-Notebook-PC (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,098] INFO Server environment:java.version=1.8.0_161 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,098] INFO Server environment:java.vendor=Oracle Corporation (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,098] INFO Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,098] INFO Server environment:java.class.path=:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/argparse4j-0.7.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/commons-lang3-3.5.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-api-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-file-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-json-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-runtime-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-transforms-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/guava-20.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-annotations-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-core-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-databind-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-base-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-json-provider-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-module-jaxb-annotations-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javassist-3.20.0-GA.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javassist-3.21.0-GA.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.annotation-api-1.2.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.inject-1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-client-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-common-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-guava-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-server-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-continuation-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-http-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-io-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-security-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-server-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-servlet-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-servlets-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-util-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jopt-simple-5.0.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-sources.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-test-sources.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-clients-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-log4j-appender-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-streams-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-streams-examples-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-tools-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/log4j-1.2.17.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/lz4-java-1.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/maven-artifact-3.5.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/metrics-core-2.2.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/plexus-utils-3.0.24.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/reflections-0.9.11.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/scala-library-2.11.11.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/slf4j-api-1.7.25.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/snappy-java-1.1.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/zkclient-0.10.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,099] INFO Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,099] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,099] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,099] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,099] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,099] INFO Server environment:os.version=4.13.0-36-generic (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,099] INFO Server environment:user.name=isura (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,099] INFO Server environment:user.home=/home/isura (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,099] INFO Server environment:user.dir=/home/isura/env/kafka_2.11-1.0.0 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,104] INFO tickTime set to 3000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,104] INFO minSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,104] INFO maxSessionTimeout set to -1 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:23:54,111] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-03-08 11:23:54,112] ERROR Unexpected exception, exiting abnormally (org.apache.zookeeper.server.ZooKeeperServerMain)
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.configure(NIOServerCnxnFactory.java:90)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:117)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.initializeAndRun(ZooKeeperServerMain.java:87)
+	at org.apache.zookeeper.server.ZooKeeperServerMain.main(ZooKeeperServerMain.java:53)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.initializeAndRun(QuorumPeerMain.java:116)
+	at org.apache.zookeeper.server.quorum.QuorumPeerMain.main(QuorumPeerMain.java:78)
+[2018-03-08 11:25:07,085] FATAL  (kafka.Kafka$)
+java.io.FileNotFoundException: config/server0.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at org.apache.kafka.common.utils.Utils.loadProps(Utils.java:495)
+	at kafka.Kafka$.getPropsFromArgs(Kafka.scala:44)
+	at kafka.Kafka$.main(Kafka.scala:81)
+	at kafka.Kafka.main(Kafka.scala)
+[2018-03-08 11:25:13,835] FATAL  (kafka.Kafka$)
+java.io.FileNotFoundException: config/server0.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at org.apache.kafka.common.utils.Utils.loadProps(Utils.java:495)
+	at kafka.Kafka$.getPropsFromArgs(Kafka.scala:44)
+	at kafka.Kafka$.main(Kafka.scala:81)
+	at kafka.Kafka.main(Kafka.scala)
+[2018-03-08 11:25:20,761] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 1.0-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:9092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 1.0-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2018-03-08 11:25:20,807] INFO starting (kafka.server.KafkaServer)
+[2018-03-08 11:25:20,809] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2018-03-08 11:25:20,822] INFO Starting ZkClient event thread. (org.I0Itec.zkclient.ZkEventThread)
+[2018-03-08 11:25:20,826] INFO Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,826] INFO Client environment:host.name=isura-HP-ENVY-15-Notebook-PC (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,826] INFO Client environment:java.version=1.8.0_161 (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,826] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,826] INFO Client environment:java.home=/usr/lib/jvm/java-8-oracle/jre (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,826] INFO Client environment:java.class.path=:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/argparse4j-0.7.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/commons-lang3-3.5.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-api-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-file-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-json-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-runtime-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/connect-transforms-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/guava-20.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-annotations-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-core-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-databind-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-base-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-json-provider-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jackson-module-jaxb-annotations-2.9.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javassist-3.20.0-GA.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javassist-3.21.0-GA.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.annotation-api-1.2.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.inject-1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-client-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-common-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-guava-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jersey-server-2.25.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-continuation-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-http-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-io-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-security-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-server-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-servlet-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-servlets-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jetty-util-9.2.22.v20170606.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/jopt-simple-5.0.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-sources.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-test-sources.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-clients-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-log4j-appender-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-streams-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-streams-examples-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/kafka-tools-1.0.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/log4j-1.2.17.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/lz4-java-1.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/maven-artifact-3.5.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/metrics-core-2.2.0.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/plexus-utils-3.0.24.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/reflections-0.9.11.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/scala-library-2.11.11.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/slf4j-api-1.7.25.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/snappy-java-1.1.4.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/zkclient-0.10.jar:/home/isura/env/kafka_2.11-1.0.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,827] INFO Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,827] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,827] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,827] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,827] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,827] INFO Client environment:os.version=4.13.0-36-generic (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,827] INFO Client environment:user.name=isura (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,827] INFO Client environment:user.home=/home/isura (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,827] INFO Client environment:user.dir=/home/isura/env/kafka_2.11-1.0.0 (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,828] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@67d48005 (org.apache.zookeeper.ZooKeeper)
+[2018-03-08 11:25:20,837] INFO Waiting for keeper state SyncConnected (org.I0Itec.zkclient.ZkClient)
+[2018-03-08 11:25:20,838] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2018-03-08 11:25:20,843] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2018-03-08 11:25:20,843] INFO Accepted socket connection from /127.0.0.1:47130 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-03-08 11:25:20,850] INFO Client attempting to establish new session at /127.0.0.1:47130 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:25:20,852] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2018-03-08 11:25:20,865] INFO Established session 0x162042ad1560000 with negotiated timeout 6000 for client /127.0.0.1:47130 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:25:20,867] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x162042ad1560000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2018-03-08 11:25:20,868] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2018-03-08 11:25:20,904] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:create cxid:0x5 zxid:0x3 txntype:-1 reqpath:n/a Error Path:/brokers Error:KeeperErrorCode = NoNode for /brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:25:20,918] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:create cxid:0xb zxid:0x7 txntype:-1 reqpath:n/a Error Path:/config Error:KeeperErrorCode = NoNode for /config (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:25:20,929] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:create cxid:0x13 zxid:0xc txntype:-1 reqpath:n/a Error Path:/admin Error:KeeperErrorCode = NoNode for /admin (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:25:21,211] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:create cxid:0x1f zxid:0x13 txntype:-1 reqpath:n/a Error Path:/cluster Error:KeeperErrorCode = NoNode for /cluster (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:25:21,217] INFO Cluster ID = 2zmlXxczQbKwqzBTlEHo-A (kafka.server.KafkaServer)
+[2018-03-08 11:25:21,228] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2018-03-08 11:25:21,254] INFO [ThrottledRequestReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-03-08 11:25:21,254] INFO [ThrottledRequestReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-03-08 11:25:21,255] INFO [ThrottledRequestReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2018-03-08 11:25:21,291] INFO Log directory '/tmp/kafka-logs' not found, creating it. (kafka.log.LogManager)
+[2018-03-08 11:25:21,299] INFO Loading logs. (kafka.log.LogManager)
+[2018-03-08 11:25:21,307] INFO Logs loading complete in 7 ms. (kafka.log.LogManager)
+[2018-03-08 11:25:21,459] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2018-03-08 11:25:21,462] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2018-03-08 11:25:21,714] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2018-03-08 11:25:21,721] INFO [SocketServer brokerId=0] Started 1 acceptor threads (kafka.network.SocketServer)
+[2018-03-08 11:25:21,845] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-03-08 11:25:21,845] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-03-08 11:25:21,845] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-03-08 11:25:21,893] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2018-03-08 11:25:22,238] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-03-08 11:25:22,270] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2018-03-08 11:25:22,270] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-03-08 11:25:22,271] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2018-03-08 11:25:22,315] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2018-03-08 11:25:22,348] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:setData cxid:0x2a zxid:0x17 txntype:-1 reqpath:n/a Error Path:/controller_epoch Error:KeeperErrorCode = NoNode for /controller_epoch (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:25:22,395] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2018-03-08 11:25:22,396] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2018-03-08 11:25:22,396] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-03-08 11:25:22,494] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2018-03-08 11:25:22,604] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2018-03-08 11:25:22,619] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2018-03-08 11:25:22,620] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2018-03-08 11:25:22,826] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:delete cxid:0x49 zxid:0x1a txntype:-1 reqpath:n/a Error Path:/admin/preferred_replica_election Error:KeeperErrorCode = NoNode for /admin/preferred_replica_election (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:25:22,836] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2018-03-08 11:25:22,836] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:create cxid:0x4b zxid:0x1b txntype:-1 reqpath:n/a Error Path:/brokers Error:KeeperErrorCode = NodeExists for /brokers (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:25:22,837] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:create cxid:0x4c zxid:0x1c txntype:-1 reqpath:n/a Error Path:/brokers/ids Error:KeeperErrorCode = NodeExists for /brokers/ids (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:25:22,840] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2018-03-08 11:25:22,841] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(isura-HP-ENVY-15-Notebook-PC,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2018-03-08 11:25:22,843] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2018-03-08 11:25:22,858] INFO Kafka version : 1.0.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2018-03-08 11:25:22,858] INFO Kafka commitId : aaa7af6d4a11b29d (org.apache.kafka.common.utils.AppInfoParser)
+[2018-03-08 11:25:22,859] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2018-03-08 11:27:07,387] INFO Accepted socket connection from /127.0.0.1:47140 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-03-08 11:27:07,401] INFO Client attempting to establish new session at /127.0.0.1:47140 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:27:07,409] INFO Established session 0x162042ad1560001 with negotiated timeout 30000 for client /127.0.0.1:47140 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:27:07,612] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560001 type:setData cxid:0x4 zxid:0x1f txntype:-1 reqpath:n/a Error Path:/config/topics/test Error:KeeperErrorCode = NoNode for /config/topics/test (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:27:07,621] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560001 type:create cxid:0x6 zxid:0x20 txntype:-1 reqpath:n/a Error Path:/config/topics Error:KeeperErrorCode = NodeExists for /config/topics (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:27:07,635] INFO Processed session termination for sessionid: 0x162042ad1560001 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:27:07,637] INFO Closed socket connection for client /127.0.0.1:47140 which had sessionid 0x162042ad1560001 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-03-08 11:27:07,665] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:create cxid:0x57 zxid:0x24 txntype:-1 reqpath:n/a Error Path:/brokers/topics/test/partitions/0 Error:KeeperErrorCode = NoNode for /brokers/topics/test/partitions/0 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:27:07,667] INFO Got user-level KeeperException when processing sessionid:0x162042ad1560000 type:create cxid:0x58 zxid:0x25 txntype:-1 reqpath:n/a Error Path:/brokers/topics/test/partitions Error:KeeperErrorCode = NoNode for /brokers/topics/test/partitions (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:27:07,688] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions test-0 (kafka.server.ReplicaFetcherManager)
+[2018-03-08 11:27:07,724] INFO Loading producer state from offset 0 for partition test-0 with message format version 2 (kafka.log.Log)
+[2018-03-08 11:27:07,729] INFO Completed load of log test-0 with 1 log segments, log start offset 0 and log end offset 0 in 21 ms (kafka.log.Log)
+[2018-03-08 11:27:07,730] INFO Created log for partition [test,0] in /tmp/kafka-logs with properties {compression.type -> producer, message.format.version -> 1.0-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2018-03-08 11:27:07,731] INFO [Partition test-0 broker=0] No checkpointed highwatermark is found for partition test-0 (kafka.cluster.Partition)
+[2018-03-08 11:27:07,734] INFO Replica loaded for partition test-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2018-03-08 11:27:07,736] INFO [Partition test-0 broker=0] test-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2018-03-08 11:28:48,155] INFO Accepted socket connection from /127.0.0.1:47144 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-03-08 11:28:48,157] INFO Client attempting to establish new session at /127.0.0.1:47144 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:28:48,159] INFO Established session 0x162042ad1560002 with negotiated timeout 30000 for client /127.0.0.1:47144 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:28:48,173] INFO Processed session termination for sessionid: 0x162042ad1560002 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:28:48,175] INFO Closed socket connection for client /127.0.0.1:47144 which had sessionid 0x162042ad1560002 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-03-08 11:30:13,841] INFO Accepted socket connection from /127.0.0.1:47162 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-03-08 11:30:13,844] INFO Client attempting to establish new session at /127.0.0.1:47162 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:30:13,856] INFO Established session 0x162042ad1560003 with negotiated timeout 30000 for client /127.0.0.1:47162 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:30:14,036] INFO Processed session termination for sessionid: 0x162042ad1560003 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:30:14,038] INFO Closed socket connection for client /127.0.0.1:47162 which had sessionid 0x162042ad1560003 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-03-08 11:35:22,396] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2018-03-08 11:38:32,199] WARN caught end of stream exception (org.apache.zookeeper.server.NIOServerCnxn)
+EndOfStreamException: Unable to read additional data from client sessionid 0x162042ad1560000, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+[2018-03-08 11:38:32,206] INFO Closed socket connection for client /127.0.0.1:47130 which had sessionid 0x162042ad1560000 (org.apache.zookeeper.server.NIOServerCnxn)
+[2018-03-08 11:38:39,001] INFO Expiring session 0x162042ad1560000, timeout of 6000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:38:39,001] INFO Processed session termination for sessionid: 0x162042ad1560000 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:38:47,114] INFO Accepted socket connection from /127.0.0.1:47358 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2018-03-08 11:38:47,116] INFO Client attempting to establish new session at /127.0.0.1:47358 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:38:47,118] INFO Established session 0x162042ad1560004 with negotiated timeout 30000 for client /127.0.0.1:47358 (org.apache.zookeeper.server.ZooKeeperServer)
+[2018-03-08 11:38:47,317] INFO Processed session termination for sessionid: 0x162042ad1560004 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2018-03-08 11:38:47,321] INFO Closed socket connection for client /127.0.0.1:47358 which had sessionid 0x162042ad1560004 (org.apache.zookeeper.server.NIOServerCnxn)
