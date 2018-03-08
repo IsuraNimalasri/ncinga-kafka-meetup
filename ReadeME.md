@@ -1,12 +1,16 @@
 
 
 ### Zookeeper Start 
+```
 ./bin/zookeeper-server-start.sh config/zookeeper.properties
+```
 
 
 # Single Broker
 ### Broker 0 start 
+```
 ./bin/kafka-server-start.sh config/server-0.properties 
+```
 
 ### Create a topic 
 ./bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic ncinga
